@@ -4,9 +4,9 @@
   "description": "A typescript node.js starter template",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node ./src/index.ts",		  
+    "start": "ts-node ./src/index.ts",
     "start:dev": "tsnd --respawn ./src/index.ts",
-    "build": "tsc ./src/index.ts",
+    "build": "tsc",
     "test": "mocha -r ts-node/register src/**/*.spec.ts"
   },
   "engines": {
