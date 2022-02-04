@@ -1,6 +1,6 @@
 # Node.js Typescript Starter
 
-A node.js starter with typescript, eslint, prettier and a logging util.
+A node.js starter with typescript, eslint, prettier, unit testing and a logging util.
 
 ## Getting Started
 
@@ -54,3 +54,8 @@ Logger.error('I am an error!')
 ### Misc
 
 Lodash is also included.
+
+## Contribution
+
+This repo was created out of a frequent need to spin up smaller Node.js projects and provides some boilerplate to start building apps. Feel free to contribute, but the intent of this repo is generally for my personal usage :).
+
