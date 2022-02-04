@@ -13,7 +13,9 @@ This repo assumes you have node.js installed using [NVM](https://github.com/nvm-
 
 ### Development
 
-Run `npm start` to compile code and watch for changes.
+Run `npm start` to compile code and run.
+
+Run `npm start:dev` to compile and watch for changes, recompiled and run.
 
 ### Testing
 
