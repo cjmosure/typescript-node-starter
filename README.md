@@ -46,7 +46,7 @@ Includes dotenv by default. You may create a root-level `.env` file to pass conf
 Includes winston as a logging library (see `./src/util/log.ts`). Usage is as follows:
 
 ```typescript
-mport Logger from './util/log
+import Logger from './util/log
 
 Logger.error('I am an error!')
 ```
