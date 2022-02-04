@@ -1,0 +1,39 @@
+{
+  "name": "cj-typescript-node-starter",
+  "version": "1.0.0",
+  "description": "A typescript node.js starter template",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsnd --respawn ./src/index.ts",
+    "build": "tsc ./src/index.ts",
+    "test": "mocha -r ts-node/register src/**/*.spec.ts"
+  },
+  "engines": {
+    "node": "^16.13.1",
+    "yarn": "Please use npm instead of yarn to install dependencies"
+  },
+  "author": "CJ Mosure <cj@mosure.org>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/lodash": "^4.14.178",
+    "@types/mocha": "^9.1.0",
+    "@types/node": "^17.0.14",
+    "@types/sinon-chai": "^3.2.8",
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
+    "@typescript-eslint/parser": "^5.10.2",
+    "chai": "^4.3.6",
+    "eslint": "^8.8.0",
+    "mocha": "^9.2.0",
+    "sinon": "^13.0.1",
+    "sinon-chai": "^3.7.0",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "lodash": "^4.17.21",
+    "winston": "^3.5.1"
+  }
+}

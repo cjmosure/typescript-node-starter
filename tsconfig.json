@@ -1,0 +1,19 @@
+{
+  "ts-node": {
+    "transpileOnly": false,
+    "files": true,
+    "compilerOptions": {}
+  },
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "types": ["node", "mocha"]
+  },
+  "exclude": ["./node_modules"],
+  "include": ["./src/**/*"]
+}
